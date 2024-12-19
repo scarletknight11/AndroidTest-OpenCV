@@ -10,6 +10,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.speech.RecognizerIntent;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -24,6 +25,8 @@ import com.example.you_tube_wifi_app.databinding.ActivityMainBinding;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import org.opencv.android.OpenCVLoader;
+
 import java.io.BufferedInputStream;
 import java.io.FileOutputStream;
 import java.net.HttpURLConnection;
@@ -31,13 +34,13 @@ import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Objects;
 
+
 public class MainActivity extends AppCompatActivity {
 
     private Button  connectButton2;
     private ImageView mic;
     private TextView mic_text;
     private static final int REQUEST_CODE_SPEECH_INPUT = 1;
-
     ActivityMainBinding binding;
     FirebaseDatabase db;
     MediaController mediaController;
@@ -78,7 +81,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        if (OpenCVLoader.initLocal()) {
+            Log.d("Loaded", "success");
+        }
+        else {
+            Log.d("Loaded", "err");
+        }
 
     }
 

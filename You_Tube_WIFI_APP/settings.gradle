@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "You_Tube_WIFI_APP"
 include ':app'
+include ':openCV'
