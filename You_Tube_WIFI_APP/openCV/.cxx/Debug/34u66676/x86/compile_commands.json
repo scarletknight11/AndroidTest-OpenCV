@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/Two way WIFI communication/You_Tube_WIFI_APP/openCV/.cxx/Debug/34u66676/x86",
+  "command": "C:\\Users\\sanji\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android24 --sysroot=C:/Users/sanji/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info -fPIC -o CMakeFiles\\opencv_jni_shared.dir\\dummy.cpp.o -c \"D:\\Two way WIFI communication\\You_Tube_WIFI_APP\\openCV\\libcxx_helper\\dummy.cpp\"",
+  "file": "D:\\Two way WIFI communication\\You_Tube_WIFI_APP\\openCV\\libcxx_helper\\dummy.cpp"
+}
+]

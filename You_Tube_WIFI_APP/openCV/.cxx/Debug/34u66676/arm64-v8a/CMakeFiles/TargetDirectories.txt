@@ -1,0 +1,3 @@
+D:/Two way WIFI communication/You_Tube_WIFI_APP/openCV/.cxx/Debug/34u66676/arm64-v8a/CMakeFiles/opencv_jni_shared.dir
+D:/Two way WIFI communication/You_Tube_WIFI_APP/openCV/.cxx/Debug/34u66676/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Two way WIFI communication/You_Tube_WIFI_APP/openCV/.cxx/Debug/34u66676/arm64-v8a/CMakeFiles/rebuild_cache.dir
