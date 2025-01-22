@@ -8,6 +8,8 @@
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -35,18 +37,18 @@
         <receiver
             android:name=".dynamic_theme_recevier"
             android:enabled="true"
-            android:exported="true"></receiver>
+            android:exported="true">
+        </receiver>
 
         <activity
-            android:name=".OpenCVTest"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
-
                 <action android:name="com.vuzix.intent.action.UI_DISPLAY_MODE" />
             </intent-filter>
+            <meta-data android:name="com.vuzix.icon.tint" android:value="true" />
         </activity>
     </application>
 

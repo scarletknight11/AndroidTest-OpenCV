@@ -35,6 +35,7 @@ import java.util.Locale;
 import java.util.Objects;
 
 
+
 public class MainActivity extends AppCompatActivity {
 
     private Button  connectButton2;
@@ -73,13 +74,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        connectButton2 = findViewById(R.id.connect2);
-        connectButton2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                gotoUrl("http://192.168.1.172/");
-            }
-        });
+//        connectButton2 = findViewById(R.id.connect2);
+//        connectButton2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                gotoUrl("http://192.168.1.172/");
+//            }
+//        });
 
         if (OpenCVLoader.initLocal()) {
             Log.d("Loaded", "success");
@@ -104,9 +105,9 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void gotoUrl(String s) {
-        Uri uri = Uri.parse(s);
-        startActivity(new Intent(Intent.ACTION_VIEW, uri));
-    }
+//    private void gotoUrl(String s) {
+//        Uri uri = Uri.parse(s);
+//        startActivity(new Intent(Intent.ACTION_VIEW, uri));
+//    }
 
 }

@@ -25,7 +25,10 @@
     "variantName": "debug",
     "isDebuggableEnabled": true,
     "validAbiList": [
-      "ARM64_V8A"
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
     ],
     "buildTargetSet": [
       "opencv_jni_shared"
@@ -128,7 +131,6 @@
         "rootBuildGradleFolder": "D:\\Two way WIFI communication\\You_Tube_WIFI_APP",
         "sdkFolder": "C:\\Users\\sanji\\AppData\\Local\\Android\\Sdk",
         "isBuildOnlyTargetAbiEnabled": true,
-        "ideBuildTargetAbi": "arm64-v8a",
         "isCmakeBuildCohabitationEnabled": false,
         "isPrefabEnabled": false
       },

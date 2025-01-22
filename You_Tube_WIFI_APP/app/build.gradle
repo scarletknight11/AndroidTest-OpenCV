@@ -42,6 +42,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:21.0.0'
     implementation platform('com.google.firebase:firebase-bom:33.6.0')
     implementation project(':openCV')
+    implementation 'com.google.firebase:firebase-firestore:25.1.1'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
@@ -50,5 +51,7 @@ dependencies {
     implementation 'com.vuzix:hud-resources:2.3.0'
     implementation 'com.vuzix:companion-settings:1.0'
     implementation 'com.vuzix:connectivity-sdk:1.1'
+    implementation 'com.vuzix:sdk-speechrecognitionservice:master-SNAPSHOT'
+    implementation 'com.google.gms:google-services:4.3.10' // Ensure correct version
 
 }
