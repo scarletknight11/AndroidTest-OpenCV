@@ -82,12 +82,7 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
-        if (OpenCVLoader.initLocal()) {
-            Log.d("Loaded", "success");
-        }
-        else {
-            Log.d("Loaded", "err");
-        }
+
 
     }
 

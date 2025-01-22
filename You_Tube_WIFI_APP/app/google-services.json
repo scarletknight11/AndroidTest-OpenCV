@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "165613826798",
-    "project_id": "androidvoice-ed0e4",
-    "storage_bucket": "androidvoice-ed0e4.firebasestorage.app"
+    "project_number": "553670777145",
+    "project_id": "newvoicespeech-474d5",
+    "storage_bucket": "newvoicespeech-474d5.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:165613826798:android:12ecc8863ba4dc43aeb9ff",
+        "mobilesdk_app_id": "1:553670777145:android:b8395c47494da97b86b0e8",
         "android_client_info": {
           "package_name": "com.example.you_tube_wifi_app"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyA4NB5LWSx20eNvE_KLYmlwAv4AegbftI4"
+          "current_key": "AIzaSyBknYTTZRw4q39nqRaevOUoccTWsVy_D88"
         }
       ],
       "services": {

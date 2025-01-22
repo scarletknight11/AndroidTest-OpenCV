@@ -5,37 +5,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!-- Button -->
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/connect2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:layout_marginEnd="168dp"
         android:text="ESP"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="144dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintVertical_bias="0.3" />
 
+    <!-- Microphone Icon -->
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ic_mic"
-        android:layout_width="151dp"
-        android:layout_height="190dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         app:srcCompat="@android:drawable/ic_btn_speak_now"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="231dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/connect2"
+        app:layout_constraintVertical_bias="0.2" />
 
+    <!-- Text View -->
     <TextView
         android:id="@+id/textView"
-        android:layout_width="145dp"
-        android:layout_height="42dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="TextView"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="134dp"
-        tools:layout_editor_absoluteY="488dp" />
-
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ic_mic"
+        app:layout_constraintVertical_bias="0.5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
